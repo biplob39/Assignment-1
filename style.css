@@ -10,15 +10,60 @@
     text-align: right;
     margin: 50px;
     margin: 0 200px;
+}
 
+.btn-primari {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 18px 35px;
+    height: 54px;
+    border-radius: 5px;
+    background: #FD6E0A;
 }
 
 .main-section {
     display: flex;
     margin: 0 200px;
-    5px align-items: center;
+    align-items: center;
 }
 
 .main-section-img {}
 
 .main-section-text {}
+
+.font-check {
+    color: rgb(59, 236, 59);
+}
+
+.plant {
+    text-align: center;
+}
+
+.skills-container {
+    display: flex;
+    align-content: center;
+}
+
+.skills {}
+
+footer {
+    display: flex;
+    color: white;
+    background-color: black;
+    height: 500px;
+    width: 100%;
+    margin: 0;
+}
+
+.btn-sub {
+    color: #FD6E0A;
+    font-weight: 500;
+    font-size: 20px;
+    border: 0;
+    padding: 18px 35px;
+    height: 20px;
+    border-radius: 5px;
+    background: #FFFFFF;
+}
