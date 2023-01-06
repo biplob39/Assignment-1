@@ -8,7 +8,6 @@
 
 .banner-text {
     text-align: right;
-    margin: 50px;
     margin-left: 800px;
     margin-right: 100px;
     padding-top: 100px;
@@ -17,6 +16,10 @@
 
 h1 {
     font-size: 60px;
+}
+
+h2 {
+    font-size: 40px;
 }
 
 .btn-primari {
@@ -36,7 +39,11 @@ h1 {
     align-items: center;
 }
 
-.main-section-img {}
+.main-section-img {
+    height: 650px;
+    width: 500px;
+    margin-right: 100px;
+}
 
 .main-section-text {}
 
