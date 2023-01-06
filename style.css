@@ -66,33 +66,42 @@ h2 {
 .skills {}
 
 footer {
+    background-color: black;
+}
+
+.footer-contant {
     display: flex;
     color: white;
+    padding: 100px 200px 100px;
+    gap: 200px;
+}
+
+.input-text {
+    height: 50px;
+    width: 250px;
     background-color: black;
-    height: 500px;
-    width: 100%;
-    margin: 0;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
 }
 
 .btn-sub {
     color: #FD6E0A;
-    font-weight: 500;
-    font-size: 20px;
-    border: 0;
-    padding: 18px 35px;
-    height: 20px;
-    width: 90px;
+    font-weight: 800;
+    font-size: 16px;
+    border: none;
+    padding: 20px 50px;
     border-radius: 5px;
     background: #FFFFFF;
+    margin-top: 10px;
 }
 
-.future-contant {
-    margin-left: 200px;
-    margin-right: 500px;
-    margin-top: 100px;
-    margin-bottom: 100px;
-}
 
 .Subscribe {
     margin-right: 100px;
+    padding: 20px;
+}
+
+h3 {
+    font-size: 24px;
 }
