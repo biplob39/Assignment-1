@@ -45,7 +45,6 @@ h2 {
     margin-right: 100px;
 }
 
-.main-section-text {}
 
 .font-check {
     color: rgb(59, 236, 59);
@@ -53,11 +52,15 @@ h2 {
 
 .plant {
     text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .skills-container {
     display: flex;
-    align-content: center;
+    justify-content: center;
+    gap: 150px;
+
 }
 
 .skills {}
