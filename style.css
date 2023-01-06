@@ -11,7 +11,6 @@
     margin-left: 800px;
     margin-right: 100px;
     padding-top: 100px;
-
 }
 
 h1 {
@@ -60,10 +59,31 @@ h2 {
     display: flex;
     justify-content: center;
     gap: 150px;
-
 }
 
-.skills {}
+
+.grines {
+    margin: 140px;
+    background-image: url("images/watch.png");
+    background-repeat: no-repeat;
+    padding: 80px;
+}
+
+.title {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.title-text {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.title-img {
+    height: 550px;
+    width: 500px;
+    margin-right: 100px;
+}
 
 footer {
     background-color: black;
