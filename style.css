@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
 /* banner-section */
 .banner {
     background-image: url("images/banner/banner3.png");
@@ -8,6 +13,7 @@
 }
 
 .banner-text {
+    color: white;
     text-align: right;
     margin-left: 800px;
     margin-right: 100px;
@@ -26,9 +32,9 @@ h2 {
     color: steelblue;
     font-weight: 700;
     font-size: 20px;
-    border: 0;
-    padding: 18px 20px;
-    height: 54px;
+    border: none;
+    margin-top: 10px;
+    padding: 10px 20px;
     border-radius: 5px;
     background: white;
 }
@@ -65,15 +71,51 @@ h2 {
     display: flex;
     justify-content: center;
     gap: 150px;
+    margin-top: 20px;
 }
 
-/* watch-section */
+/* linier-section */
 
-.watch {
-    margin: 140px;
-    background-image: url("images/watch.png");
-    background-repeat: no-repeat;
-    padding: 80px;
+
+.rident-continerg {
+    padding: 50px 100px;
+    margin: 100px;
+    border-radius: 8px;
+    background: linear-gradient(105deg, rgb(218, 68, 9) 50%,
+            rgb(13, 140, 224));
+
+    color: white;
+
+}
+
+
+.btn-liner {
+    background: orange;
+    color: white;
+    font-weight: 700;
+    margin-top: 8px;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 7px 20px;
+    box-shadow: 10px;
+    border: none;
+}
+
+.rident-continerg:hover .watch {
+    background-size: 100% 100%;
+
+}
+
+
+/* about-section */
+.about {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.text-coior {
+    color: #FD6E0A;
 }
 
 .title {
